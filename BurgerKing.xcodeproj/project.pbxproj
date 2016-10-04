@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		094BC6CA1D9D1B4500424E30 /* mzl.jqrpdfct.175x175-75.png in Resources */ = {isa = PBXBuildFile; fileRef = 094BC6C91D9D1B4500424E30 /* mzl.jqrpdfct.175x175-75.png */; };
+		094BC6D01D9D249E00424E30 /* Registro.m in Sources */ = {isa = PBXBuildFile; fileRef = 094BC6CF1D9D249E00424E30 /* Registro.m */; };
+		094BC6D21D9D273500424E30 /* quickblox-ios-sdk-master in Resources */ = {isa = PBXBuildFile; fileRef = 094BC6D11D9D273500424E30 /* quickblox-ios-sdk-master */; };
+		094BC6D41D9D274600424E30 /* Quickblox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094BC6D31D9D274600424E30 /* Quickblox.framework */; };
+		094BC6D61D9D278C00424E30 /* QuickbloxWebRTC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094BC6D51D9D278B00424E30 /* QuickbloxWebRTC.framework */; };
+		094BC6D81D9D284900424E30 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094BC6D71D9D284900424E30 /* SystemConfiguration.framework */; };
+		094BC6DA1D9D285700424E30 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094BC6D91D9D285700424E30 /* MobileCoreServices.framework */; };
+		094BC6DC1D9D286B00424E30 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094BC6DB1D9D286B00424E30 /* CoreGraphics.framework */; };
+		094BC6DE1D9D287800424E30 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094BC6DD1D9D287800424E30 /* CoreLocation.framework */; };
+		094BC6E01D9D288700424E30 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094BC6DF1D9D288700424E30 /* CoreData.framework */; };
+		094BC6E21D9D289F00424E30 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094BC6E11D9D289F00424E30 /* AudioToolbox.framework */; };
+		094BC6E41D9D28B400424E30 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094BC6E31D9D28B400424E30 /* CoreMedia.framework */; };
+		099681D41D9A587200F82176 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 099681D31D9A587200F82176 /* main.m */; };
+		099681D71D9A587200F82176 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 099681D61D9A587200F82176 /* AppDelegate.m */; };
+		099681DA1D9A587200F82176 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 099681D91D9A587200F82176 /* ViewController.m */; };
+		099681DD1D9A587200F82176 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 099681DB1D9A587200F82176 /* Main.storyboard */; };
+		099681DF1D9A587300F82176 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 099681DE1D9A587300F82176 /* Assets.xcassets */; };
+		099681E21D9A587300F82176 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 099681E01D9A587300F82176 /* LaunchScreen.storyboard */; };
+		099681ED1D9A587300F82176 /* BurgerKingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 099681EC1D9A587300F82176 /* BurgerKingTests.m */; };
+		099681F81D9A587300F82176 /* BurgerKingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 099681F71D9A587300F82176 /* BurgerKingUITests.m */; };
+		099682081D9A72B200F82176 /* Calculadora.m in Sources */ = {isa = PBXBuildFile; fileRef = 099682071D9A72B200F82176 /* Calculadora.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		099681E91D9A587300F82176 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 099681C71D9A587200F82176 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 099681CE1D9A587200F82176;
+			remoteInfo = BurgerKing;
+		};
+		099681F41D9A587300F82176 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 099681C71D9A587200F82176 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 099681CE1D9A587200F82176;
+			remoteInfo = BurgerKing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		094BC6C91D9D1B4500424E30 /* mzl.jqrpdfct.175x175-75.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "mzl.jqrpdfct.175x175-75.png"; path = "../../../Downloads/mzl.jqrpdfct.175x175-75.png"; sourceTree = "<group>"; };
+		094BC6CE1D9D249E00424E30 /* Registro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Registro.h; sourceTree = "<group>"; };
+		094BC6CF1D9D249E00424E30 /* Registro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Registro.m; sourceTree = "<group>"; };
+		094BC6D11D9D273500424E30 /* quickblox-ios-sdk-master */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "quickblox-ios-sdk-master"; path = "../../Downloads/quickblox-ios-sdk-master"; sourceTree = "<group>"; };
+		094BC6D31D9D274600424E30 /* Quickblox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quickblox.framework; path = "../../Downloads/quickblox-ios-sdk-master/Framework/Quickblox.framework"; sourceTree = "<group>"; };
+		094BC6D51D9D278B00424E30 /* QuickbloxWebRTC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickbloxWebRTC.framework; path = "../../Downloads/quickblox-ios-sdk-master/Framework/QuickbloxWebRTC.framework"; sourceTree = "<group>"; };
+		094BC6D71D9D284900424E30 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		094BC6D91D9D285700424E30 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		094BC6DB1D9D286B00424E30 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		094BC6DD1D9D287800424E30 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		094BC6DF1D9D288700424E30 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		094BC6E11D9D289F00424E30 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		094BC6E31D9D28B400424E30 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		099681CF1D9A587200F82176 /* BurgerKing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BurgerKing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		099681D31D9A587200F82176 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		099681D51D9A587200F82176 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		099681D61D9A587200F82176 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		099681D81D9A587200F82176 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		099681D91D9A587200F82176 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		099681DC1D9A587200F82176 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		099681DE1D9A587300F82176 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		099681E11D9A587300F82176 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		099681E31D9A587300F82176 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		099681E81D9A587300F82176 /* BurgerKingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BurgerKingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		099681EC1D9A587300F82176 /* BurgerKingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BurgerKingTests.m; sourceTree = "<group>"; };
+		099681EE1D9A587300F82176 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		099681F31D9A587300F82176 /* BurgerKingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BurgerKingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		099681F71D9A587300F82176 /* BurgerKingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BurgerKingUITests.m; sourceTree = "<group>"; };
+		099681F91D9A587300F82176 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		099682061D9A72B200F82176 /* Calculadora.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Calculadora.h; path = libreria/Calculadora.h; sourceTree = "<group>"; };
+		099682071D9A72B200F82176 /* Calculadora.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Calculadora.m; path = libreria/Calculadora.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		099681CC1D9A587200F82176 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				094BC6E41D9D28B400424E30 /* CoreMedia.framework in Frameworks */,
+				094BC6E21D9D289F00424E30 /* AudioToolbox.framework in Frameworks */,
+				094BC6E01D9D288700424E30 /* CoreData.framework in Frameworks */,
+				094BC6DE1D9D287800424E30 /* CoreLocation.framework in Frameworks */,
+				094BC6DC1D9D286B00424E30 /* CoreGraphics.framework in Frameworks */,
+				094BC6DA1D9D285700424E30 /* MobileCoreServices.framework in Frameworks */,
+				094BC6D81D9D284900424E30 /* SystemConfiguration.framework in Frameworks */,
+				094BC6D61D9D278C00424E30 /* QuickbloxWebRTC.framework in Frameworks */,
+				094BC6D41D9D274600424E30 /* Quickblox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		099681E51D9A587300F82176 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		099681F01D9A587300F82176 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		099681C61D9A587200F82176 = {
+			isa = PBXGroup;
+			children = (
+				094BC6E31D9D28B400424E30 /* CoreMedia.framework */,
+				094BC6E11D9D289F00424E30 /* AudioToolbox.framework */,
+				094BC6DF1D9D288700424E30 /* CoreData.framework */,
+				094BC6DD1D9D287800424E30 /* CoreLocation.framework */,
+				094BC6DB1D9D286B00424E30 /* CoreGraphics.framework */,
+				094BC6D91D9D285700424E30 /* MobileCoreServices.framework */,
+				094BC6D71D9D284900424E30 /* SystemConfiguration.framework */,
+				094BC6D51D9D278B00424E30 /* QuickbloxWebRTC.framework */,
+				094BC6D31D9D274600424E30 /* Quickblox.framework */,
+				094BC6D11D9D273500424E30 /* quickblox-ios-sdk-master */,
+				099681D11D9A587200F82176 /* BurgerKing */,
+				099681EB1D9A587300F82176 /* BurgerKingTests */,
+				099681F61D9A587300F82176 /* BurgerKingUITests */,
+				099681D01D9A587200F82176 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		099681D01D9A587200F82176 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				099681CF1D9A587200F82176 /* BurgerKing.app */,
+				099681E81D9A587300F82176 /* BurgerKingTests.xctest */,
+				099681F31D9A587300F82176 /* BurgerKingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		099681D11D9A587200F82176 /* BurgerKing */ = {
+			isa = PBXGroup;
+			children = (
+				099682051D9A721B00F82176 /* libreria */,
+				099681D51D9A587200F82176 /* AppDelegate.h */,
+				099681D61D9A587200F82176 /* AppDelegate.m */,
+				099681D81D9A587200F82176 /* ViewController.h */,
+				099681D91D9A587200F82176 /* ViewController.m */,
+				099681DB1D9A587200F82176 /* Main.storyboard */,
+				099681DE1D9A587300F82176 /* Assets.xcassets */,
+				099681E01D9A587300F82176 /* LaunchScreen.storyboard */,
+				099681E31D9A587300F82176 /* Info.plist */,
+				099681D21D9A587200F82176 /* Supporting Files */,
+				094BC6CE1D9D249E00424E30 /* Registro.h */,
+				094BC6CF1D9D249E00424E30 /* Registro.m */,
+			);
+			path = BurgerKing;
+			sourceTree = "<group>";
+		};
+		099681D21D9A587200F82176 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				099681D31D9A587200F82176 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		099681EB1D9A587300F82176 /* BurgerKingTests */ = {
+			isa = PBXGroup;
+			children = (
+				099681EC1D9A587300F82176 /* BurgerKingTests.m */,
+				099681EE1D9A587300F82176 /* Info.plist */,
+			);
+			path = BurgerKingTests;
+			sourceTree = "<group>";
+		};
+		099681F61D9A587300F82176 /* BurgerKingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				099681F71D9A587300F82176 /* BurgerKingUITests.m */,
+				099681F91D9A587300F82176 /* Info.plist */,
+			);
+			path = BurgerKingUITests;
+			sourceTree = "<group>";
+		};
+		099682051D9A721B00F82176 /* libreria */ = {
+			isa = PBXGroup;
+			children = (
+				094BC6C91D9D1B4500424E30 /* mzl.jqrpdfct.175x175-75.png */,
+				099682061D9A72B200F82176 /* Calculadora.h */,
+				099682071D9A72B200F82176 /* Calculadora.m */,
+			);
+			name = libreria;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		099681CE1D9A587200F82176 /* BurgerKing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 099681FC1D9A587300F82176 /* Build configuration list for PBXNativeTarget "BurgerKing" */;
+			buildPhases = (
+				099681CB1D9A587200F82176 /* Sources */,
+				099681CC1D9A587200F82176 /* Frameworks */,
+				099681CD1D9A587200F82176 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BurgerKing;
+			productName = BurgerKing;
+			productReference = 099681CF1D9A587200F82176 /* BurgerKing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		099681E71D9A587300F82176 /* BurgerKingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 099681FF1D9A587300F82176 /* Build configuration list for PBXNativeTarget "BurgerKingTests" */;
+			buildPhases = (
+				099681E41D9A587300F82176 /* Sources */,
+				099681E51D9A587300F82176 /* Frameworks */,
+				099681E61D9A587300F82176 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				099681EA1D9A587300F82176 /* PBXTargetDependency */,
+			);
+			name = BurgerKingTests;
+			productName = BurgerKingTests;
+			productReference = 099681E81D9A587300F82176 /* BurgerKingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		099681F21D9A587300F82176 /* BurgerKingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 099682021D9A587300F82176 /* Build configuration list for PBXNativeTarget "BurgerKingUITests" */;
+			buildPhases = (
+				099681EF1D9A587300F82176 /* Sources */,
+				099681F01D9A587300F82176 /* Frameworks */,
+				099681F11D9A587300F82176 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				099681F51D9A587300F82176 /* PBXTargetDependency */,
+			);
+			name = BurgerKingUITests;
+			productName = BurgerKingUITests;
+			productReference = 099681F31D9A587300F82176 /* BurgerKingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		099681C71D9A587200F82176 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Daniel Garcimartín Herráez";
+				TargetAttributes = {
+					099681CE1D9A587200F82176 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					099681E71D9A587300F82176 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 099681CE1D9A587200F82176;
+					};
+					099681F21D9A587300F82176 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 099681CE1D9A587200F82176;
+					};
+				};
+			};
+			buildConfigurationList = 099681CA1D9A587200F82176 /* Build configuration list for PBXProject "BurgerKing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 099681C61D9A587200F82176;
+			productRefGroup = 099681D01D9A587200F82176 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				099681CE1D9A587200F82176 /* BurgerKing */,
+				099681E71D9A587300F82176 /* BurgerKingTests */,
+				099681F21D9A587300F82176 /* BurgerKingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		099681CD1D9A587200F82176 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				099681E21D9A587300F82176 /* LaunchScreen.storyboard in Resources */,
+				099681DF1D9A587300F82176 /* Assets.xcassets in Resources */,
+				094BC6D21D9D273500424E30 /* quickblox-ios-sdk-master in Resources */,
+				094BC6CA1D9D1B4500424E30 /* mzl.jqrpdfct.175x175-75.png in Resources */,
+				099681DD1D9A587200F82176 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		099681E61D9A587300F82176 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		099681F11D9A587300F82176 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		099681CB1D9A587200F82176 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				099681DA1D9A587200F82176 /* ViewController.m in Sources */,
+				099681D71D9A587200F82176 /* AppDelegate.m in Sources */,
+				099681D41D9A587200F82176 /* main.m in Sources */,
+				094BC6D01D9D249E00424E30 /* Registro.m in Sources */,
+				099682081D9A72B200F82176 /* Calculadora.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		099681E41D9A587300F82176 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				099681ED1D9A587300F82176 /* BurgerKingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		099681EF1D9A587300F82176 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				099681F81D9A587300F82176 /* BurgerKingUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		099681EA1D9A587300F82176 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 099681CE1D9A587200F82176 /* BurgerKing */;
+			targetProxy = 099681E91D9A587300F82176 /* PBXContainerItemProxy */;
+		};
+		099681F51D9A587300F82176 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 099681CE1D9A587200F82176 /* BurgerKing */;
+			targetProxy = 099681F41D9A587300F82176 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		099681DB1D9A587200F82176 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				099681DC1D9A587200F82176 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		099681E01D9A587300F82176 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				099681E11D9A587300F82176 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		099681FA1D9A587300F82176 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		099681FB1D9A587300F82176 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		099681FD1D9A587300F82176 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BurgerKing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.BurgerKing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		099681FE1D9A587300F82176 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BurgerKing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.BurgerKing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		099682001D9A587300F82176 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BurgerKingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.BurgerKingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BurgerKing.app/BurgerKing";
+			};
+			name = Debug;
+		};
+		099682011D9A587300F82176 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BurgerKingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.BurgerKingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BurgerKing.app/BurgerKing";
+			};
+			name = Release;
+		};
+		099682031D9A587300F82176 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BurgerKingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.BurgerKingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BurgerKing;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		099682041D9A587300F82176 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BurgerKingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.BurgerKingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BurgerKing;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		099681CA1D9A587200F82176 /* Build configuration list for PBXProject "BurgerKing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				099681FA1D9A587300F82176 /* Debug */,
+				099681FB1D9A587300F82176 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		099681FC1D9A587300F82176 /* Build configuration list for PBXNativeTarget "BurgerKing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				099681FD1D9A587300F82176 /* Debug */,
+				099681FE1D9A587300F82176 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		099681FF1D9A587300F82176 /* Build configuration list for PBXNativeTarget "BurgerKingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				099682001D9A587300F82176 /* Debug */,
+				099682011D9A587300F82176 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		099682021D9A587300F82176 /* Build configuration list for PBXNativeTarget "BurgerKingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				099682031D9A587300F82176 /* Debug */,
+				099682041D9A587300F82176 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 099681C71D9A587200F82176 /* Project object */;
+}

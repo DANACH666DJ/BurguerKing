@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "BF1573A7C6077BE321643867A6E8A010CFE1FDFA",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "BF1573A7C6077BE321643867A6E8A010CFE1FDFA" : 0,
+    "E2CD781B7DB4E62FD44F5BA12C775F89BFF85375" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "173521B0-0386-4FF6-947C-515E47468C1C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "BF1573A7C6077BE321643867A6E8A010CFE1FDFA" : "BurguerKingNeo\/",
+    "E2CD781B7DB4E62FD44F5BA12C775F89BFF85375" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "BurgerKing",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "BurgerKing.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/DANACH666DJ\/BurguerKingNeo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BF1573A7C6077BE321643867A6E8A010CFE1FDFA"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/DANACH666DJ\/BurguerKing.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E2CD781B7DB4E62FD44F5BA12C775F89BFF85375"
+    }
+  ]
+}
