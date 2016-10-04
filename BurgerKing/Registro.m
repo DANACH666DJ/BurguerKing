@@ -7,6 +7,8 @@
 //
 
 #import "Registro.h"
+#import "AppDelegate.h"
+
 
 @interface Registro ()
 

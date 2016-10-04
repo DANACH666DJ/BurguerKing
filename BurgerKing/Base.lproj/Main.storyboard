@@ -27,11 +27,11 @@
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <color key="backgroundColor" red="1" green="0.99409116860000002" blue="0.95007519770000004" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                <state key="normal" title="Continuar">
+                                <state key="normal" title="Haz tu pedido">
                                     <color key="titleColor" red="0.12619021029999999" green="0.090385901020000006" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="20" y="473" width="360" height="30"/>
+                                    <rect key="frame" x="20" y="480" width="360" height="38"/>
                                 </variation>
                                 <connections>
                                     <segue destination="dT1-oh-ZvA" kind="show" id="i7D-rw-Bqj"/>
@@ -45,21 +45,12 @@
                                     <color key="titleColor" red="0.12619021029999999" green="0.090385901020000006" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="20" y="387" width="360" height="30"/>
+                                    <rect key="frame" x="20" y="414" width="360" height="42"/>
                                 </variation>
                                 <connections>
                                     <segue destination="aoW-00-tdR" kind="show" id="kpE-Wi-2I3"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="tuvieja" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BLg-AV-Q2P">
-                                <rect key="frame" x="256" y="246" width="51" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="132" y="318" width="51" height="21"/>
-                                </variation>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <variation key="default">
@@ -82,10 +73,10 @@
             </objects>
             <point key="canvasLocation" x="235.5" y="495"/>
         </scene>
-        <!--View Controller-->
+        <!--Registro-->
         <scene sceneID="lIZ-nj-IbP">
             <objects>
-                <viewController id="aoW-00-tdR" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="aoW-00-tdR" customClass="Registro" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="4tX-1W-x0P"/>
                         <viewControllerLayoutGuide type="bottom" id="8zB-VJ-fxC"/>
@@ -227,6 +218,12 @@
                         </variation>
                     </view>
                     <connections>
+                        <outlet property="btonAceptar" destination="sjm-K5-1qj" id="t6S-Vm-D6Q"/>
+                        <outlet property="btonCancelar" destination="Mz5-fI-OYM" id="B2P-4Z-uHb"/>
+                        <outlet property="txtContraseña" destination="kbj-HK-JFw" id="aLs-T3-WKP"/>
+                        <outlet property="txtEmail" destination="PgX-X7-Mdv" id="SeN-YA-vnx"/>
+                        <outlet property="txtNombre" destination="gGW-b3-X9x" id="ef6-q8-PGg"/>
+                        <outlet property="txtRepContraseña" destination="fbj-B8-ZVu" id="J0s-aD-BzG"/>
                         <outlet property="view" destination="u92-mN-Ihm" id="rm8-WN-rUL"/>
                     </connections>
                 </viewController>

@@ -11,6 +11,9 @@
 
 @interface ViewController : UIViewController{
     Calculadora* calc;
+    IBOutlet UIButton * btonCancelar;
+    IBOutlet UIButton * btonAceptar;
+    
 }
 
 

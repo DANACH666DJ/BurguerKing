@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		094AD6D81DA3F867000CD3AB /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094AD6D71DA3F867000CD3AB /* CFNetwork.framework */; };
+		094AD6DA1DA3F89B000CD3AB /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094AD6D91DA3F89B000CD3AB /* CoreVideo.framework */; };
+		094AD6DC1DA3FA60000CD3AB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094AD6DB1DA3FA60000CD3AB /* AVFoundation.framework */; };
+		094AD6DE1DA3FA6D000CD3AB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094AD6DD1DA3FA6D000CD3AB /* QuartzCore.framework */; };
+		094AD6E01DA3FA79000CD3AB /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094AD6DF1DA3FA79000CD3AB /* Security.framework */; };
+		094AD6E21DA3FA95000CD3AB /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094AD6E11DA3FA95000CD3AB /* Accelerate.framework */; };
+		094AD6E41DA3FC95000CD3AB /* Quickblox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094AD6E31DA3FC95000CD3AB /* Quickblox.framework */; };
 		094BC6CA1D9D1B4500424E30 /* mzl.jqrpdfct.175x175-75.png in Resources */ = {isa = PBXBuildFile; fileRef = 094BC6C91D9D1B4500424E30 /* mzl.jqrpdfct.175x175-75.png */; };
 		094BC6D01D9D249E00424E30 /* Registro.m in Sources */ = {isa = PBXBuildFile; fileRef = 094BC6CF1D9D249E00424E30 /* Registro.m */; };
 		094BC6D21D9D273500424E30 /* quickblox-ios-sdk-master in Resources */ = {isa = PBXBuildFile; fileRef = 094BC6D11D9D273500424E30 /* quickblox-ios-sdk-master */; };
@@ -48,6 +55,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		094AD6D71DA3F867000CD3AB /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		094AD6D91DA3F89B000CD3AB /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		094AD6DB1DA3FA60000CD3AB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		094AD6DD1DA3FA6D000CD3AB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		094AD6DF1DA3FA79000CD3AB /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		094AD6E11DA3FA95000CD3AB /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		094AD6E31DA3FC95000CD3AB /* Quickblox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Quickblox.framework; sourceTree = "<group>"; };
 		094BC6C91D9D1B4500424E30 /* mzl.jqrpdfct.175x175-75.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "mzl.jqrpdfct.175x175-75.png"; path = "../../../Downloads/mzl.jqrpdfct.175x175-75.png"; sourceTree = "<group>"; };
 		094BC6CE1D9D249E00424E30 /* Registro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Registro.h; sourceTree = "<group>"; };
 		094BC6CF1D9D249E00424E30 /* Registro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Registro.m; sourceTree = "<group>"; };
@@ -86,7 +100,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				094AD6E21DA3FA95000CD3AB /* Accelerate.framework in Frameworks */,
+				094AD6E41DA3FC95000CD3AB /* Quickblox.framework in Frameworks */,
+				094AD6E01DA3FA79000CD3AB /* Security.framework in Frameworks */,
+				094AD6DE1DA3FA6D000CD3AB /* QuartzCore.framework in Frameworks */,
+				094AD6DC1DA3FA60000CD3AB /* AVFoundation.framework in Frameworks */,
+				094AD6DA1DA3F89B000CD3AB /* CoreVideo.framework in Frameworks */,
 				094BC6E41D9D28B400424E30 /* CoreMedia.framework in Frameworks */,
+				094AD6D81DA3F867000CD3AB /* CFNetwork.framework in Frameworks */,
 				094BC6E21D9D289F00424E30 /* AudioToolbox.framework in Frameworks */,
 				094BC6E01D9D288700424E30 /* CoreData.framework in Frameworks */,
 				094BC6DE1D9D287800424E30 /* CoreLocation.framework in Frameworks */,
@@ -118,6 +139,13 @@
 		099681C61D9A587200F82176 = {
 			isa = PBXGroup;
 			children = (
+				094AD6E31DA3FC95000CD3AB /* Quickblox.framework */,
+				094AD6E11DA3FA95000CD3AB /* Accelerate.framework */,
+				094AD6DF1DA3FA79000CD3AB /* Security.framework */,
+				094AD6DD1DA3FA6D000CD3AB /* QuartzCore.framework */,
+				094AD6DB1DA3FA60000CD3AB /* AVFoundation.framework */,
+				094AD6D91DA3F89B000CD3AB /* CoreVideo.framework */,
+				094AD6D71DA3F867000CD3AB /* CFNetwork.framework */,
 				094BC6E31D9D28B400424E30 /* CoreMedia.framework */,
 				094BC6E11D9D289F00424E30 /* AudioToolbox.framework */,
 				094BC6DF1D9D288700424E30 /* CoreData.framework */,
@@ -475,8 +503,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = BurgerKing/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-lxml2",
+					"-ObjC",
+					"-lstdc++",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = test.BurgerKing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -486,8 +524,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = BurgerKing/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-lxml2",
+					"-ObjC",
+					"-lstdc++",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = test.BurgerKing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
