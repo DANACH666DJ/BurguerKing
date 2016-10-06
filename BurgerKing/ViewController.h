@@ -7,10 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "Calculadora.h"
+
 
 @interface ViewController : UIViewController{
-    Calculadora* calc;
     IBOutlet UIButton * btonRegistro;
     IBOutlet UIButton * btonPedido;
     
