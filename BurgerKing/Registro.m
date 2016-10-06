@@ -24,6 +24,12 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+    
+    
+}
+
+-(AppDelegate *)getAppDelegate{
+    return (AppDelegate *)[[UIApplication sharedApplication] delegate];
 }
 
 -(IBAction)accionRegistrar:(id)sender{
@@ -31,9 +37,9 @@
     
     
     QBUUser *user = [QBUUser user];
-    user.password = txtContraseña.text;
+    user.password = contraseña.text;
     user.email = txtEmail.text;
-    user.login = txtNombre.text;
+    user.login = nombre.text;
     
     // Registration/sign up of User
     [QBRequest signUp:user successBlock:^(QBResponse *response, QBUUser *user) {
@@ -45,7 +51,7 @@
         NSLog(@"Usuario o contraseña incorrectos");
         
     }];
-
+}
 /*
 #pragma mark - Navigation
 

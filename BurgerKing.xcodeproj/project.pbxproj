@@ -13,12 +13,10 @@
 		094AD6DE1DA3FA6D000CD3AB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094AD6DD1DA3FA6D000CD3AB /* QuartzCore.framework */; };
 		094AD6E01DA3FA79000CD3AB /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094AD6DF1DA3FA79000CD3AB /* Security.framework */; };
 		094AD6E21DA3FA95000CD3AB /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094AD6E11DA3FA95000CD3AB /* Accelerate.framework */; };
-		094AD6E41DA3FC95000CD3AB /* Quickblox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094AD6E31DA3FC95000CD3AB /* Quickblox.framework */; };
 		094BC6CA1D9D1B4500424E30 /* mzl.jqrpdfct.175x175-75.png in Resources */ = {isa = PBXBuildFile; fileRef = 094BC6C91D9D1B4500424E30 /* mzl.jqrpdfct.175x175-75.png */; };
 		094BC6D01D9D249E00424E30 /* Registro.m in Sources */ = {isa = PBXBuildFile; fileRef = 094BC6CF1D9D249E00424E30 /* Registro.m */; };
 		094BC6D21D9D273500424E30 /* quickblox-ios-sdk-master in Resources */ = {isa = PBXBuildFile; fileRef = 094BC6D11D9D273500424E30 /* quickblox-ios-sdk-master */; };
 		094BC6D41D9D274600424E30 /* Quickblox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094BC6D31D9D274600424E30 /* Quickblox.framework */; };
-		094BC6D61D9D278C00424E30 /* QuickbloxWebRTC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094BC6D51D9D278B00424E30 /* QuickbloxWebRTC.framework */; };
 		094BC6D81D9D284900424E30 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094BC6D71D9D284900424E30 /* SystemConfiguration.framework */; };
 		094BC6DA1D9D285700424E30 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094BC6D91D9D285700424E30 /* MobileCoreServices.framework */; };
 		094BC6DC1D9D286B00424E30 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094BC6DB1D9D286B00424E30 /* CoreGraphics.framework */; };
@@ -26,6 +24,9 @@
 		094BC6E01D9D288700424E30 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094BC6DF1D9D288700424E30 /* CoreData.framework */; };
 		094BC6E21D9D289F00424E30 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094BC6E11D9D289F00424E30 /* AudioToolbox.framework */; };
 		094BC6E41D9D28B400424E30 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094BC6E31D9D28B400424E30 /* CoreMedia.framework */; };
+		095733CE1DA65EBD009742E9 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 095733CD1DA65EBD009742E9 /* libxml2.tbd */; };
+		095733D01DA65EC8009742E9 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 095733CF1DA65EC8009742E9 /* libresolv.tbd */; };
+		095733D21DA65ED1009742E9 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 095733D11DA65ED1009742E9 /* libz.tbd */; };
 		099681D41D9A587200F82176 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 099681D31D9A587200F82176 /* main.m */; };
 		099681D71D9A587200F82176 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 099681D61D9A587200F82176 /* AppDelegate.m */; };
 		099681DA1D9A587200F82176 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 099681D91D9A587200F82176 /* ViewController.m */; };
@@ -61,7 +62,6 @@
 		094AD6DD1DA3FA6D000CD3AB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		094AD6DF1DA3FA79000CD3AB /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		094AD6E11DA3FA95000CD3AB /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
-		094AD6E31DA3FC95000CD3AB /* Quickblox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Quickblox.framework; sourceTree = "<group>"; };
 		094BC6C91D9D1B4500424E30 /* mzl.jqrpdfct.175x175-75.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "mzl.jqrpdfct.175x175-75.png"; path = "../../../Downloads/mzl.jqrpdfct.175x175-75.png"; sourceTree = "<group>"; };
 		094BC6CE1D9D249E00424E30 /* Registro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Registro.h; sourceTree = "<group>"; };
 		094BC6CF1D9D249E00424E30 /* Registro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Registro.m; sourceTree = "<group>"; };
@@ -75,6 +75,9 @@
 		094BC6DF1D9D288700424E30 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		094BC6E11D9D289F00424E30 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		094BC6E31D9D28B400424E30 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		095733CD1DA65EBD009742E9 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		095733CF1DA65EC8009742E9 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		095733D11DA65ED1009742E9 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		099681CF1D9A587200F82176 /* BurgerKing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BurgerKing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		099681D31D9A587200F82176 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		099681D51D9A587200F82176 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -100,8 +103,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				095733D21DA65ED1009742E9 /* libz.tbd in Frameworks */,
+				095733D01DA65EC8009742E9 /* libresolv.tbd in Frameworks */,
+				095733CE1DA65EBD009742E9 /* libxml2.tbd in Frameworks */,
 				094AD6E21DA3FA95000CD3AB /* Accelerate.framework in Frameworks */,
-				094AD6E41DA3FC95000CD3AB /* Quickblox.framework in Frameworks */,
 				094AD6E01DA3FA79000CD3AB /* Security.framework in Frameworks */,
 				094AD6DE1DA3FA6D000CD3AB /* QuartzCore.framework in Frameworks */,
 				094AD6DC1DA3FA60000CD3AB /* AVFoundation.framework in Frameworks */,
@@ -114,7 +119,6 @@
 				094BC6DC1D9D286B00424E30 /* CoreGraphics.framework in Frameworks */,
 				094BC6DA1D9D285700424E30 /* MobileCoreServices.framework in Frameworks */,
 				094BC6D81D9D284900424E30 /* SystemConfiguration.framework in Frameworks */,
-				094BC6D61D9D278C00424E30 /* QuickbloxWebRTC.framework in Frameworks */,
 				094BC6D41D9D274600424E30 /* Quickblox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,7 +143,9 @@
 		099681C61D9A587200F82176 = {
 			isa = PBXGroup;
 			children = (
-				094AD6E31DA3FC95000CD3AB /* Quickblox.framework */,
+				095733D11DA65ED1009742E9 /* libz.tbd */,
+				095733CF1DA65EC8009742E9 /* libresolv.tbd */,
+				095733CD1DA65EBD009742E9 /* libxml2.tbd */,
 				094AD6E11DA3FA95000CD3AB /* Accelerate.framework */,
 				094AD6DF1DA3FA79000CD3AB /* Security.framework */,
 				094AD6DD1DA3FA6D000CD3AB /* QuartzCore.framework */,

@@ -10,8 +10,8 @@
 
 @interface Registro : UIViewController
 {
-    IBOutlet UITextField * txtNombre;
-    IBOutlet UITextField * txtContraseña;
+    IBOutlet UITextField * nombre;
+    IBOutlet UITextField * contraseña;
     IBOutlet UITextField * txtRepContraseña;
     IBOutlet UITextField * txtEmail;
     IBOutlet UIButton * btonCancelar;
