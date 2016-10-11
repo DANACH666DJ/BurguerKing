@@ -10,6 +10,7 @@
 		091AE24D1DA6944C00E46EEC /* Login.m in Sources */ = {isa = PBXBuildFile; fileRef = 091AE24C1DA6944C00E46EEC /* Login.m */; };
 		091AE2501DA694FE00E46EEC /* Pedido.m in Sources */ = {isa = PBXBuildFile; fileRef = 091AE24F1DA694FE00E46EEC /* Pedido.m */; };
 		091AE2531DA69B2800E46EEC /* TablaProductos.m in Sources */ = {isa = PBXBuildFile; fileRef = 091AE2521DA69B2800E46EEC /* TablaProductos.m */; };
+		093C6CFF1DAD391800EEB0DE /* Burger-King-Logo12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 093C6CFE1DAD391800EEB0DE /* Burger-King-Logo12.jpg */; };
 		094AD6D81DA3F867000CD3AB /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094AD6D71DA3F867000CD3AB /* CFNetwork.framework */; };
 		094AD6DA1DA3F89B000CD3AB /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094AD6D91DA3F89B000CD3AB /* CoreVideo.framework */; };
 		094AD6DC1DA3FA60000CD3AB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094AD6DB1DA3FA60000CD3AB /* AVFoundation.framework */; };
@@ -62,6 +63,7 @@
 		091AE24F1DA694FE00E46EEC /* Pedido.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pedido.m; sourceTree = "<group>"; };
 		091AE2511DA69B2800E46EEC /* TablaProductos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TablaProductos.h; sourceTree = "<group>"; };
 		091AE2521DA69B2800E46EEC /* TablaProductos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TablaProductos.m; sourceTree = "<group>"; };
+		093C6CFE1DAD391800EEB0DE /* Burger-King-Logo12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Burger-King-Logo12.jpg"; path = "../../Downloads/Burger-King-Logo12.jpg"; sourceTree = "<group>"; };
 		094AD6D71DA3F867000CD3AB /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		094AD6D91DA3F89B000CD3AB /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		094AD6DB1DA3FA60000CD3AB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -144,6 +146,7 @@
 		099681C61D9A587200F82176 = {
 			isa = PBXGroup;
 			children = (
+				093C6CFE1DAD391800EEB0DE /* Burger-King-Logo12.jpg */,
 				09D3F8811DACEF6500B269A0 /* Quickblox.framework */,
 				095733D11DA65ED1009742E9 /* libz.tbd */,
 				095733CF1DA65EC8009742E9 /* libresolv.tbd */,
@@ -342,6 +345,7 @@
 				099681E21D9A587300F82176 /* LaunchScreen.storyboard in Resources */,
 				099681DF1D9A587300F82176 /* Assets.xcassets in Resources */,
 				099681DD1D9A587200F82176 /* Main.storyboard in Resources */,
+				093C6CFF1DAD391800EEB0DE /* Burger-King-Logo12.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -13,6 +13,7 @@
 
 - (void)awakeFromNib {
     // Initialization code
+    [super awakeFromNib];
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
@@ -26,8 +27,8 @@
     
 }
 
--(void)setModificarLabelPunt:(NSString*)labelPunt{
-    lblPrecio.text=labelPunt;
+-(void)setModificarLabelPunt:(float)labelPunt{
+    lblPrecio.text=[NSString stringWithFormat:@"%.02f",labelPunt];
 }
 
 -(void) descargarImg :(int)cid{

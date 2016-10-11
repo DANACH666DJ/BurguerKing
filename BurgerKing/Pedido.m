@@ -33,7 +33,7 @@
      [getRequest setObject:@"rating" forKey:@"sort_asc"];
      */
     
-    [QBRequest objectsWithClassName:@"Coordenadas" extendedRequest:getRequest successBlock:^(QBResponse *response, NSArray *objects, QBResponsePage *page) {
+    [QBRequest objectsWithClassName:@"Productos" extendedRequest:getRequest successBlock:^(QBResponse *response, NSArray *objects, QBResponsePage *page) {
         // response processing
         objetos= objects;
         [uitableview reloadData];
@@ -62,17 +62,16 @@
     return objetos.count;
 }
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
-    TableViewCell *cell =[tableView dequeueReusableCellWithIdentifier:@"table1cell"];
+    TablaProductos* cell =(TablaProductos*)[tableView dequeueReusableCellWithIdentifier:@"table1cell"];
     
     
     QBCOCustomObject* obj=(QBCOCustomObject*)objetos[indexPath.row];
     
-    NSString* sNombre=[obj.fields objectForKey:@"nombre"];
-    NSString* sPuntuacion=[obj.fields objectForKey:@"Puntuacion"];
-    NSString* sTetas=[obj.fields objectForKey:@"lon"];
+    NSString* sNombre=[obj.fields objectForKey:@"Nombre"];
+    float iPuntuacion=[[obj.fields objectForKey:@"Precio"] floatValue];
     int iIMG=[[obj.fields objectForKey:@"cid"] intValue];
     
-    [cell setModificarLabelPunt:sPuntuacion];
+    [cell setModificarLabelPunt:iPuntuacion];
     [cell setModificarLabel:sNombre];
     [cell descargarImg:iIMG];
     //[cell setTextoLabel:@"HEY HEY !!!"];

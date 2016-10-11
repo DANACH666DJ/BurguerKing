@@ -16,7 +16,7 @@
 }
 
 -(void)setModificarLabel:(NSString*)label;
--(void)setModificarLabelPunt:(NSString*)labelPunt;
+-(void)setModificarLabelPunt:(float)labelPunt;
 -(void) descargarImg :(int)cid;
 
 @end

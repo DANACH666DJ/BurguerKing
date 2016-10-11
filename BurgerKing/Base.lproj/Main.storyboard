@@ -18,10 +18,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hrC-jT-hNc">
-                                <frame key="frameInset" minX="64" minY="57" width="272" height="234"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B3U-TK-Wxx">
                                 <frame key="frameInset" minX="20" minY="525" width="339" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -58,22 +54,26 @@
                                     <segue destination="LFO-NG-Ryd" kind="show" id="6Ml-ag-thG"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Burger-King-Logo12.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="hrC-jT-hNc">
+                                <frame key="frameInset" minX="51" minY="51" width="272" height="272"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.26740069681020495" blue="0.15099947981543937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <variation key="default">
                             <mask key="subviews">
-                                <exclude reference="hrC-jT-hNc"/>
                                 <exclude reference="B3U-TK-Wxx"/>
                                 <exclude reference="hTO-1I-ULd"/>
                                 <exclude reference="snu-Mv-dTF"/>
+                                <exclude reference="hrC-jT-hNc"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
-                                <include reference="hrC-jT-hNc"/>
                                 <include reference="B3U-TK-Wxx"/>
                                 <include reference="hTO-1I-ULd"/>
                                 <include reference="snu-Mv-dTF"/>
+                                <include reference="hrC-jT-hNc"/>
                             </mask>
                         </variation>
                     </view>
@@ -339,60 +339,72 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="136" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="7XZ-SR-MHg">
-                                <frame key="frameInset" width="400" height="600"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="178" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="7XZ-SR-MHg">
+                                <frame key="frameInset" width="375" height="600"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="136" id="BgF-pk-rGb" customClass="TablaProductos">
-                                        <rect key="frame" x="0.0" y="28" width="400" height="136"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="table1cell" rowHeight="178" id="BgF-pk-rGb" customClass="TablaProductos">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="178"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="BgF-pk-rGb" id="iuK-Tp-wGT">
-                                            <frame key="frameInset" width="400" height="135"/>
+                                            <frame key="frameInset" width="375" height="177"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZhK-xB-cqf">
-                                                    <frame key="frameInset" minX="8" minY="4" width="240" height="128"/>
+                                                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8uk-cg-Gag">
+                                                    <frame key="frameInset" minY="15" width="367" height="162"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Producto" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OsL-1A-Q2j">
-                                                    <frame key="frameInset" minX="266" minY="49" width="121" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Precio" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lvX-hr-ujw">
-                                                    <frame key="frameInset" minX="268" minY="87" width="119" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
+                                                    <subviews>
+                                                        <activityIndicatorView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="n1Y-nq-J4G">
+                                                            <rect key="frame" x="107" y="67" width="20" height="20"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        </activityIndicatorView>
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZhK-xB-cqf">
+                                                            <rect key="frame" x="8" y="14" width="219" height="127"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        </imageView>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Producto" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OsL-1A-Q2j">
+                                                            <rect key="frame" x="248" y="40" width="119" height="21"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Precio" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lvX-hr-ujw">
+                                                            <rect key="frame" x="248" y="99" width="88" height="21"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                </scrollView>
                                             </subviews>
-                                            <variation key="default">
-                                                <mask key="subviews">
-                                                    <exclude reference="ZhK-xB-cqf"/>
-                                                    <exclude reference="OsL-1A-Q2j"/>
-                                                    <exclude reference="lvX-hr-ujw"/>
-                                                </mask>
-                                            </variation>
-                                            <variation key="widthClass=compact">
-                                                <mask key="subviews">
-                                                    <include reference="ZhK-xB-cqf"/>
-                                                    <include reference="OsL-1A-Q2j"/>
-                                                    <include reference="lvX-hr-ujw"/>
-                                                </mask>
-                                            </variation>
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="imagenProducto" destination="ZhK-xB-cqf" id="JQ6-56-rFI"/>
-                                            <outlet property="lblPrecio" destination="lvX-hr-ujw" id="pjO-Vf-LVf"/>
+                                            <outlet property="lblPrecio" destination="lvX-hr-ujw" id="QG4-54-jNI"/>
                                             <outlet property="lblProducto" destination="OsL-1A-Q2j" id="q2m-9A-YZg"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="dT1-oh-ZvA" id="pwL-08-XYp"/>
+                                    <outlet property="delegate" destination="dT1-oh-ZvA" id="Yhc-W9-pX2"/>
+                                </connections>
                             </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ebm-Qa-fxU">
+                                <frame key="frameInset" minX="131" minY="629" width="110" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.99037775820114227" blue="0.99096099256758019" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Volver">
+                                    <color key="titleColor" red="0.17779653506778814" green="0.19744721644332253" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.61667561646390467" green="0.61395942650400959" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="PWk-qg-wtS"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.28915130586440019" blue="0.2646806688829374" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <variation key="default">
@@ -412,12 +424,15 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8P9-Rt-eMc" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1252" y="236"/>
+            <point key="canvasLocation" x="-1253.5999999999999" y="235.23238380809596"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Burger-King-Logo12.jpg" width="1186" height="1186"/>
+    </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="PWk-qg-wtS"/>
         <segue reference="i7D-rw-Bqj"/>
-        <segue reference="kMv-vV-6l9"/>
         <segue reference="i05-Wf-9Y5"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="1" green="0.99409116860000002" blue="0.95007519770000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
