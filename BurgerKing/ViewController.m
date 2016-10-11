@@ -16,8 +16,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    calc=[[Calculadora alloc]init];
-    [calc imprimirMiNombre];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
