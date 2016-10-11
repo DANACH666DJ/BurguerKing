@@ -16,10 +16,7 @@
 		094AD6DE1DA3FA6D000CD3AB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094AD6DD1DA3FA6D000CD3AB /* QuartzCore.framework */; };
 		094AD6E01DA3FA79000CD3AB /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094AD6DF1DA3FA79000CD3AB /* Security.framework */; };
 		094AD6E21DA3FA95000CD3AB /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094AD6E11DA3FA95000CD3AB /* Accelerate.framework */; };
-		094BC6CA1D9D1B4500424E30 /* mzl.jqrpdfct.175x175-75.png in Resources */ = {isa = PBXBuildFile; fileRef = 094BC6C91D9D1B4500424E30 /* mzl.jqrpdfct.175x175-75.png */; };
 		094BC6D01D9D249E00424E30 /* Registro.m in Sources */ = {isa = PBXBuildFile; fileRef = 094BC6CF1D9D249E00424E30 /* Registro.m */; };
-		094BC6D21D9D273500424E30 /* quickblox-ios-sdk-master in Resources */ = {isa = PBXBuildFile; fileRef = 094BC6D11D9D273500424E30 /* quickblox-ios-sdk-master */; };
-		094BC6D41D9D274600424E30 /* Quickblox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094BC6D31D9D274600424E30 /* Quickblox.framework */; };
 		094BC6D81D9D284900424E30 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094BC6D71D9D284900424E30 /* SystemConfiguration.framework */; };
 		094BC6DA1D9D285700424E30 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094BC6D91D9D285700424E30 /* MobileCoreServices.framework */; };
 		094BC6DC1D9D286B00424E30 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094BC6DB1D9D286B00424E30 /* CoreGraphics.framework */; };
@@ -38,6 +35,7 @@
 		099681E21D9A587300F82176 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 099681E01D9A587300F82176 /* LaunchScreen.storyboard */; };
 		099681ED1D9A587300F82176 /* BurgerKingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 099681EC1D9A587300F82176 /* BurgerKingTests.m */; };
 		099681F81D9A587300F82176 /* BurgerKingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 099681F71D9A587300F82176 /* BurgerKingUITests.m */; };
+		09D3F8821DACEF6500B269A0 /* Quickblox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09D3F8811DACEF6500B269A0 /* Quickblox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,12 +68,8 @@
 		094AD6DD1DA3FA6D000CD3AB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		094AD6DF1DA3FA79000CD3AB /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		094AD6E11DA3FA95000CD3AB /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
-		094BC6C91D9D1B4500424E30 /* mzl.jqrpdfct.175x175-75.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "mzl.jqrpdfct.175x175-75.png"; path = "../../../Downloads/mzl.jqrpdfct.175x175-75.png"; sourceTree = "<group>"; };
 		094BC6CE1D9D249E00424E30 /* Registro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Registro.h; sourceTree = "<group>"; };
 		094BC6CF1D9D249E00424E30 /* Registro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Registro.m; sourceTree = "<group>"; };
-		094BC6D11D9D273500424E30 /* quickblox-ios-sdk-master */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "quickblox-ios-sdk-master"; path = "../../Downloads/quickblox-ios-sdk-master"; sourceTree = "<group>"; };
-		094BC6D31D9D274600424E30 /* Quickblox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quickblox.framework; path = "../../Downloads/quickblox-ios-sdk-master/Framework/Quickblox.framework"; sourceTree = "<group>"; };
-		094BC6D51D9D278B00424E30 /* QuickbloxWebRTC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickbloxWebRTC.framework; path = "../../Downloads/quickblox-ios-sdk-master/Framework/QuickbloxWebRTC.framework"; sourceTree = "<group>"; };
 		094BC6D71D9D284900424E30 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		094BC6D91D9D285700424E30 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		094BC6DB1D9D286B00424E30 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -102,6 +96,7 @@
 		099681F31D9A587300F82176 /* BurgerKingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BurgerKingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		099681F71D9A587300F82176 /* BurgerKingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BurgerKingUITests.m; sourceTree = "<group>"; };
 		099681F91D9A587300F82176 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09D3F8811DACEF6500B269A0 /* Quickblox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Quickblox.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +112,7 @@
 				094AD6DE1DA3FA6D000CD3AB /* QuartzCore.framework in Frameworks */,
 				094AD6DC1DA3FA60000CD3AB /* AVFoundation.framework in Frameworks */,
 				094AD6DA1DA3F89B000CD3AB /* CoreVideo.framework in Frameworks */,
+				09D3F8821DACEF6500B269A0 /* Quickblox.framework in Frameworks */,
 				094BC6E41D9D28B400424E30 /* CoreMedia.framework in Frameworks */,
 				094AD6D81DA3F867000CD3AB /* CFNetwork.framework in Frameworks */,
 				094BC6E21D9D289F00424E30 /* AudioToolbox.framework in Frameworks */,
@@ -125,7 +121,6 @@
 				094BC6DC1D9D286B00424E30 /* CoreGraphics.framework in Frameworks */,
 				094BC6DA1D9D285700424E30 /* MobileCoreServices.framework in Frameworks */,
 				094BC6D81D9D284900424E30 /* SystemConfiguration.framework in Frameworks */,
-				094BC6D41D9D274600424E30 /* Quickblox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +144,7 @@
 		099681C61D9A587200F82176 = {
 			isa = PBXGroup;
 			children = (
+				09D3F8811DACEF6500B269A0 /* Quickblox.framework */,
 				095733D11DA65ED1009742E9 /* libz.tbd */,
 				095733CF1DA65EC8009742E9 /* libresolv.tbd */,
 				095733CD1DA65EBD009742E9 /* libxml2.tbd */,
@@ -165,9 +161,6 @@
 				094BC6DB1D9D286B00424E30 /* CoreGraphics.framework */,
 				094BC6D91D9D285700424E30 /* MobileCoreServices.framework */,
 				094BC6D71D9D284900424E30 /* SystemConfiguration.framework */,
-				094BC6D51D9D278B00424E30 /* QuickbloxWebRTC.framework */,
-				094BC6D31D9D274600424E30 /* Quickblox.framework */,
-				094BC6D11D9D273500424E30 /* quickblox-ios-sdk-master */,
 				099681D11D9A587200F82176 /* BurgerKing */,
 				099681EB1D9A587300F82176 /* BurgerKingTests */,
 				099681F61D9A587300F82176 /* BurgerKingUITests */,
@@ -239,7 +232,6 @@
 		099682051D9A721B00F82176 /* libreria */ = {
 			isa = PBXGroup;
 			children = (
-				094BC6C91D9D1B4500424E30 /* mzl.jqrpdfct.175x175-75.png */,
 			);
 			name = libreria;
 			sourceTree = "<group>";
@@ -349,8 +341,6 @@
 			files = (
 				099681E21D9A587300F82176 /* LaunchScreen.storyboard in Resources */,
 				099681DF1D9A587300F82176 /* Assets.xcassets in Resources */,
-				094BC6D21D9D273500424E30 /* quickblox-ios-sdk-master in Resources */,
-				094BC6CA1D9D1B4500424E30 /* mzl.jqrpdfct.175x175-75.png in Resources */,
 				099681DD1D9A587200F82176 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

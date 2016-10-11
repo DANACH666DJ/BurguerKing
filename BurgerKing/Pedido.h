@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TablaProductos.h"
+#import <Quickblox/Quickblox.h>
 
-@interface Pedido : UIViewController
+@interface Pedido : UIViewController<UITableViewDelegate,UITableViewDataSource>
+{
+   IBOutlet UITableView *  uitableview;
+  NSArray * objetos;
+}
 
 @end

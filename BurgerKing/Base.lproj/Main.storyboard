@@ -18,7 +18,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mzl.jqrpdfct.175x175-75.png" translatesAutoresizingMaskIntoConstraints="NO" id="hrC-jT-hNc">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hrC-jT-hNc">
                                 <frame key="frameInset" minX="64" minY="57" width="272" height="234"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -78,6 +78,7 @@
                         </variation>
                     </view>
                     <connections>
+                        <outlet property="btonLogin" destination="snu-Mv-dTF" id="kLJ-E0-H0z"/>
                         <outlet property="btonPedido" destination="B3U-TK-Wxx" id="rQX-y2-MpB"/>
                         <outlet property="btonRegistro" destination="hTO-1I-ULd" id="VLR-VX-yRx"/>
                     </connections>
@@ -347,7 +348,7 @@
                                         <rect key="frame" x="0.0" y="28" width="400" height="136"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="BgF-pk-rGb" id="iuK-Tp-wGT">
-                                            <frame key="frameInset" width="400" height="136"/>
+                                            <frame key="frameInset" width="400" height="135"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZhK-xB-cqf">
@@ -405,19 +406,19 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="uitableview" destination="7XZ-SR-MHg" id="CJ7-cE-9K8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8P9-Rt-eMc" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1252" y="236"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="mzl.jqrpdfct.175x175-75.png" width="175" height="175"/>
-    </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="sfI-PI-Yc6"/>
-        <segue reference="6Ml-ag-thG"/>
-        <segue reference="PJU-83-Sbi"/>
+        <segue reference="i7D-rw-Bqj"/>
+        <segue reference="kMv-vV-6l9"/>
+        <segue reference="i05-Wf-9Y5"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="1" green="0.99409116860000002" blue="0.95007519770000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
 </document>

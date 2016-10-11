@@ -12,6 +12,7 @@
 @interface ViewController : UIViewController{
     IBOutlet UIButton * btonRegistro;
     IBOutlet UIButton * btonPedido;
+    IBOutlet UIButton * btonLogin;
     
 }
 

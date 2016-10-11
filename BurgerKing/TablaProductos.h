@@ -7,11 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Quickblox/Quickblox.h>
 
 @interface TablaProductos : UITableViewCell {
     IBOutlet UIImageView * imagenProducto;
     IBOutlet UILabel * lblProducto;
     IBOutlet UILabel * lblPrecio;
 }
+
+-(void)setModificarLabel:(NSString*)label;
+-(void)setModificarLabelPunt:(NSString*)labelPunt;
+-(void) descargarImg :(int)cid;
 
 @end
