@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import <Quickblox/Quickblox.h>
+#import "PayPalMobile.h"
+
+
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 

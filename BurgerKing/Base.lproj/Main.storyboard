@@ -30,18 +30,6 @@
                                     <segue destination="dT1-oh-ZvA" kind="show" id="i7D-rw-Bqj"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hTO-1I-ULd">
-                                <frame key="frameInset" minX="20" minY="380" width="339" height="42"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.99409116860000002" blue="0.95007519770000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                <state key="normal" title="Registrarse">
-                                    <color key="titleColor" red="0.12619021029999999" green="0.090385901020000006" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="aoW-00-tdR" kind="show" id="kpE-Wi-2I3"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="snu-Mv-dTF">
                                 <frame key="frameInset" minX="20" minY="457" width="339" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -58,22 +46,34 @@
                                 <frame key="frameInset" minX="51" minY="51" width="272" height="272"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hTO-1I-ULd">
+                                <frame key="frameInset" minX="20" minY="380" width="339" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.99409116860000002" blue="0.95007519770000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="Registrarse">
+                                    <color key="titleColor" red="0.12619021029999999" green="0.090385901020000006" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="aoW-00-tdR" kind="show" id="kpE-Wi-2I3"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.26740069681020495" blue="0.15099947981543937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="B3U-TK-Wxx"/>
-                                <exclude reference="hTO-1I-ULd"/>
                                 <exclude reference="snu-Mv-dTF"/>
                                 <exclude reference="hrC-jT-hNc"/>
+                                <exclude reference="hTO-1I-ULd"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="B3U-TK-Wxx"/>
-                                <include reference="hTO-1I-ULd"/>
                                 <include reference="snu-Mv-dTF"/>
                                 <include reference="hrC-jT-hNc"/>
+                                <include reference="hTO-1I-ULd"/>
                             </mask>
                         </variation>
                     </view>
@@ -348,7 +348,7 @@
                                         <rect key="frame" x="0.0" y="28" width="375" height="178"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="BgF-pk-rGb" id="iuK-Tp-wGT">
-                                            <frame key="frameInset" width="375" height="177"/>
+                                            <frame key="frameInset" width="375" height="178"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8uk-cg-Gag">
@@ -426,14 +426,41 @@
             </objects>
             <point key="canvasLocation" x="-1253.5999999999999" y="235.23238380809596"/>
         </scene>
+        <!--Paypal-->
+        <scene sceneID="5dv-jn-prJ">
+            <objects>
+                <viewController id="MDv-EB-5L5" customClass="Paypal" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="maS-Tu-bK7"/>
+                        <viewControllerLayoutGuide type="bottom" id="Y7X-uO-kz8"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cw7-9n-pAg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OsA-0R-eQ5">
+                                <frame key="frameInset" minX="133" minY="311" width="109" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Payment Paypal">
+                                    <color key="titleColor" red="1" green="0.32036781060906294" blue="0.25144676611325156" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qtr-xv-Q0F" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-297" y="235"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Burger-King-Logo12.jpg" width="1186" height="1186"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="PWk-qg-wtS"/>
+        <segue reference="kMv-vV-6l9"/>
         <segue reference="i7D-rw-Bqj"/>
-        <segue reference="i05-Wf-9Y5"/>
+        <segue reference="6Ml-ag-thG"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="1" green="0.99409116860000002" blue="0.95007519770000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
 </document>

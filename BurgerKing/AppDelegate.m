@@ -17,7 +17,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-
+    
     [QBSettings setApplicationID:47851];
     [QBSettings setAuthKey:@"6SwE9cNCmWWVMdA"];
     [QBSettings setAuthSecret:@"C3XsYCsSQuZ-mFx"];

@@ -25,6 +25,9 @@
 		094BC6E01D9D288700424E30 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094BC6DF1D9D288700424E30 /* CoreData.framework */; };
 		094BC6E21D9D289F00424E30 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094BC6E11D9D289F00424E30 /* AudioToolbox.framework */; };
 		094BC6E41D9D28B400424E30 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094BC6E31D9D28B400424E30 /* CoreMedia.framework */; };
+		09554DC91DAF8C8F0072317A /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09554DC81DAF8C8F0072317A /* MessageUI.framework */; };
+		09554DCB1DAF8CA60072317A /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09554DCA1DAF8CA60072317A /* SafariServices.framework */; };
+		09554DCE1DAF8E970072317A /* Paypal.m in Sources */ = {isa = PBXBuildFile; fileRef = 09554DCD1DAF8E970072317A /* Paypal.m */; };
 		095733CE1DA65EBD009742E9 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 095733CD1DA65EBD009742E9 /* libxml2.tbd */; };
 		095733D01DA65EC8009742E9 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 095733CF1DA65EC8009742E9 /* libresolv.tbd */; };
 		095733D21DA65ED1009742E9 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 095733D11DA65ED1009742E9 /* libz.tbd */; };
@@ -37,6 +40,9 @@
 		099681ED1D9A587300F82176 /* BurgerKingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 099681EC1D9A587300F82176 /* BurgerKingTests.m */; };
 		099681F81D9A587300F82176 /* BurgerKingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 099681F71D9A587300F82176 /* BurgerKingUITests.m */; };
 		09D3F8821DACEF6500B269A0 /* Quickblox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09D3F8811DACEF6500B269A0 /* Quickblox.framework */; };
+		4C33B82DCC29C1B3A8ADB99F /* libPods-BurgerKingUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E45D47F1FD74BF2DC3536DC /* libPods-BurgerKingUITests.a */; };
+		5290B18E18C1FFA538D83D25 /* libPods-BurgerKing.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A0018DB5247F717FF65515 /* libPods-BurgerKing.a */; };
+		CCEDE9EB6F8C2D1B74120B00 /* libPods-BurgerKingTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 133B95857376A114A5054418 /* libPods-BurgerKingTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +85,10 @@
 		094BC6DF1D9D288700424E30 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		094BC6E11D9D289F00424E30 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		094BC6E31D9D28B400424E30 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		09554DC81DAF8C8F0072317A /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		09554DCA1DAF8CA60072317A /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		09554DCC1DAF8E970072317A /* Paypal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Paypal.h; sourceTree = "<group>"; };
+		09554DCD1DAF8E970072317A /* Paypal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Paypal.m; sourceTree = "<group>"; };
 		095733CD1DA65EBD009742E9 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
 		095733CF1DA65EC8009742E9 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
 		095733D11DA65ED1009742E9 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
@@ -99,6 +109,15 @@
 		099681F71D9A587300F82176 /* BurgerKingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BurgerKingUITests.m; sourceTree = "<group>"; };
 		099681F91D9A587300F82176 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09D3F8811DACEF6500B269A0 /* Quickblox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Quickblox.framework; sourceTree = "<group>"; };
+		133B95857376A114A5054418 /* libPods-BurgerKingTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BurgerKingTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2487C698C5EF5CB31097ECE4 /* Pods-BurgerKingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BurgerKingUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BurgerKingUITests/Pods-BurgerKingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		51125565B83D2B87D4C6D5D3 /* Pods-BurgerKing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BurgerKing.release.xcconfig"; path = "Pods/Target Support Files/Pods-BurgerKing/Pods-BurgerKing.release.xcconfig"; sourceTree = "<group>"; };
+		5E45D47F1FD74BF2DC3536DC /* libPods-BurgerKingUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BurgerKingUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7345A7D967C7A948C07F999F /* Pods-BurgerKingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BurgerKingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BurgerKingTests/Pods-BurgerKingTests.release.xcconfig"; sourceTree = "<group>"; };
+		A15B7CCAF590A91D680E069C /* Pods-BurgerKing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BurgerKing.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BurgerKing/Pods-BurgerKing.debug.xcconfig"; sourceTree = "<group>"; };
+		B4997A5171CE09C28CF342E8 /* Pods-BurgerKingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BurgerKingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BurgerKingTests/Pods-BurgerKingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B69F2BBD48959E891C2ABFAF /* Pods-BurgerKingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BurgerKingUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BurgerKingUITests/Pods-BurgerKingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C1A0018DB5247F717FF65515 /* libPods-BurgerKing.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BurgerKing.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +125,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09554DCB1DAF8CA60072317A /* SafariServices.framework in Frameworks */,
+				09554DC91DAF8C8F0072317A /* MessageUI.framework in Frameworks */,
 				095733D21DA65ED1009742E9 /* libz.tbd in Frameworks */,
 				095733D01DA65EC8009742E9 /* libresolv.tbd in Frameworks */,
 				095733CE1DA65EBD009742E9 /* libxml2.tbd in Frameworks */,
@@ -123,6 +144,7 @@
 				094BC6DC1D9D286B00424E30 /* CoreGraphics.framework in Frameworks */,
 				094BC6DA1D9D285700424E30 /* MobileCoreServices.framework in Frameworks */,
 				094BC6D81D9D284900424E30 /* SystemConfiguration.framework in Frameworks */,
+				5290B18E18C1FFA538D83D25 /* libPods-BurgerKing.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +152,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCEDE9EB6F8C2D1B74120B00 /* libPods-BurgerKingTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,12 +160,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C33B82DCC29C1B3A8ADB99F /* libPods-BurgerKingUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		09554DC71DAF8C8F0072317A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09554DCA1DAF8CA60072317A /* SafariServices.framework */,
+				09554DC81DAF8C8F0072317A /* MessageUI.framework */,
+				C1A0018DB5247F717FF65515 /* libPods-BurgerKing.a */,
+				133B95857376A114A5054418 /* libPods-BurgerKingTests.a */,
+				5E45D47F1FD74BF2DC3536DC /* libPods-BurgerKingUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		099681C61D9A587200F82176 = {
 			isa = PBXGroup;
 			children = (
@@ -168,6 +204,8 @@
 				099681EB1D9A587300F82176 /* BurgerKingTests */,
 				099681F61D9A587300F82176 /* BurgerKingUITests */,
 				099681D01D9A587200F82176 /* Products */,
+				09554DC71DAF8C8F0072317A /* Frameworks */,
+				D03853FEBF91D019711EF790 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -197,6 +235,8 @@
 				091AE24F1DA694FE00E46EEC /* Pedido.m */,
 				091AE2511DA69B2800E46EEC /* TablaProductos.h */,
 				091AE2521DA69B2800E46EEC /* TablaProductos.m */,
+				09554DCC1DAF8E970072317A /* Paypal.h */,
+				09554DCD1DAF8E970072317A /* Paypal.m */,
 				099681DB1D9A587200F82176 /* Main.storyboard */,
 				099681DE1D9A587300F82176 /* Assets.xcassets */,
 				099681E01D9A587300F82176 /* LaunchScreen.storyboard */,
@@ -239,6 +279,19 @@
 			name = libreria;
 			sourceTree = "<group>";
 		};
+		D03853FEBF91D019711EF790 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A15B7CCAF590A91D680E069C /* Pods-BurgerKing.debug.xcconfig */,
+				51125565B83D2B87D4C6D5D3 /* Pods-BurgerKing.release.xcconfig */,
+				B4997A5171CE09C28CF342E8 /* Pods-BurgerKingTests.debug.xcconfig */,
+				7345A7D967C7A948C07F999F /* Pods-BurgerKingTests.release.xcconfig */,
+				2487C698C5EF5CB31097ECE4 /* Pods-BurgerKingUITests.debug.xcconfig */,
+				B69F2BBD48959E891C2ABFAF /* Pods-BurgerKingUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -246,9 +299,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 099681FC1D9A587300F82176 /* Build configuration list for PBXNativeTarget "BurgerKing" */;
 			buildPhases = (
+				E054E931A1D93458184E2092 /* [CP] Check Pods Manifest.lock */,
 				099681CB1D9A587200F82176 /* Sources */,
 				099681CC1D9A587200F82176 /* Frameworks */,
 				099681CD1D9A587200F82176 /* Resources */,
+				6E535E32D532AD1D4D0C1044 /* [CP] Embed Pods Frameworks */,
+				380015D0CDA151627D511483 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -263,9 +319,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 099681FF1D9A587300F82176 /* Build configuration list for PBXNativeTarget "BurgerKingTests" */;
 			buildPhases = (
+				9744E0669D90274DBD01DD8B /* [CP] Check Pods Manifest.lock */,
 				099681E41D9A587300F82176 /* Sources */,
 				099681E51D9A587300F82176 /* Frameworks */,
 				099681E61D9A587300F82176 /* Resources */,
+				36BDB7C71351333D4CEC1D62 /* [CP] Embed Pods Frameworks */,
+				7EAFD79D4E16FCA54FEA295D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -281,9 +340,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 099682021D9A587300F82176 /* Build configuration list for PBXNativeTarget "BurgerKingUITests" */;
 			buildPhases = (
+				47F01FA5AA062436CF37BBBC /* [CP] Check Pods Manifest.lock */,
 				099681EF1D9A587300F82176 /* Sources */,
 				099681F01D9A587300F82176 /* Frameworks */,
 				099681F11D9A587300F82176 /* Resources */,
+				F00F8E4224C1DBE5A9F5587D /* [CP] Embed Pods Frameworks */,
+				B257744A57C207DDF8AC49C4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -365,6 +427,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		36BDB7C71351333D4CEC1D62 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BurgerKingTests/Pods-BurgerKingTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		380015D0CDA151627D511483 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BurgerKing/Pods-BurgerKing-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47F01FA5AA062436CF37BBBC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6E535E32D532AD1D4D0C1044 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BurgerKing/Pods-BurgerKing-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EAFD79D4E16FCA54FEA295D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BurgerKingTests/Pods-BurgerKingTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9744E0669D90274DBD01DD8B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B257744A57C207DDF8AC49C4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BurgerKingUITests/Pods-BurgerKingUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E054E931A1D93458184E2092 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F00F8E4224C1DBE5A9F5587D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BurgerKingUITests/Pods-BurgerKingUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		099681CB1D9A587200F82176 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -372,6 +572,7 @@
 			files = (
 				099681DA1D9A587200F82176 /* ViewController.m in Sources */,
 				099681D71D9A587200F82176 /* AppDelegate.m in Sources */,
+				09554DCE1DAF8E970072317A /* Paypal.m in Sources */,
 				091AE2531DA69B2800E46EEC /* TablaProductos.m in Sources */,
 				091AE2501DA694FE00E46EEC /* Pedido.m in Sources */,
 				099681D41D9A587200F82176 /* main.m in Sources */,
@@ -513,6 +714,7 @@
 		};
 		099681FD1D9A587300F82176 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A15B7CCAF590A91D680E069C /* Pods-BurgerKing.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -526,6 +728,7 @@
 					"-lxml2",
 					"-ObjC",
 					"-lstdc++",
+					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = test.BurgerKing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -534,6 +737,7 @@
 		};
 		099681FE1D9A587300F82176 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51125565B83D2B87D4C6D5D3 /* Pods-BurgerKing.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -547,6 +751,7 @@
 					"-lxml2",
 					"-ObjC",
 					"-lstdc++",
+					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = test.BurgerKing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -555,6 +760,7 @@
 		};
 		099682001D9A587300F82176 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4997A5171CE09C28CF342E8 /* Pods-BurgerKingTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = BurgerKingTests/Info.plist;
@@ -567,6 +773,7 @@
 		};
 		099682011D9A587300F82176 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7345A7D967C7A948C07F999F /* Pods-BurgerKingTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = BurgerKingTests/Info.plist;
@@ -579,6 +786,7 @@
 		};
 		099682031D9A587300F82176 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2487C698C5EF5CB31097ECE4 /* Pods-BurgerKingUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = BurgerKingUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -591,6 +799,7 @@
 		};
 		099682041D9A587300F82176 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B69F2BBD48959E891C2ABFAF /* Pods-BurgerKingUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = BurgerKingUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
