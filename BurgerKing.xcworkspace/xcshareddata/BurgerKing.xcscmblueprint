@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "0CF80CD69F84C2AAE9FDBE742CA109B6CC184D0A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "0CF80CD69F84C2AAE9FDBE742CA109B6CC184D0A" : 9223372036854775807,
+    "DEF69B637476FC5A11C1E68BB97C88EC6D295A4E" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "1A9EFD7C-5C90-4159-870B-1A6CD1905D37",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "0CF80CD69F84C2AAE9FDBE742CA109B6CC184D0A" : "BurguerKing\/",
+    "DEF69B637476FC5A11C1E68BB97C88EC6D295A4E" : "BurguerKing\/PayPal-iOS-SDK\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "BurgerKing",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "BurgerKing.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/DANACH666DJ\/BurguerKing.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0CF80CD69F84C2AAE9FDBE742CA109B6CC184D0A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/paypal\/PayPal-iOS-SDK.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DEF69B637476FC5A11C1E68BB97C88EC6D295A4E"
+    }
+  ]
+}

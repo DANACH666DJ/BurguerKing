@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="MDv-EB-5L5">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
@@ -445,9 +445,7 @@
                                     <color key="titleColor" red="1" green="0.32036781060906294" blue="0.25144676611325156" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="PaypalPaymentProcess2:" destination="MDv-EB-5L5" eventType="touchUpInside" id="xRD-LM-T5w"/>
-                                    <action selector="PaypalPaymentProcess:" destination="MDv-EB-5L5" eventType="touchUpInside" id="Osc-f8-pb8"/>
-                                    <action selector="paypalPaymentProcess:" destination="MDv-EB-5L5" eventType="touchUpInside" id="Kmg-6b-DaV"/>
+                                    <action selector="PaypalPaymentProcess:" destination="MDv-EB-5L5" eventType="touchUpInside" id="xqM-Rf-9Z5"/>
                                 </connections>
                             </button>
                         </subviews>
