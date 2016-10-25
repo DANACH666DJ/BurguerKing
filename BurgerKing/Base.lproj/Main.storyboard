@@ -444,6 +444,11 @@
                                 <state key="normal" title="Payment Paypal">
                                     <color key="titleColor" red="1" green="0.32036781060906294" blue="0.25144676611325156" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="PaypalPaymentProcess2:" destination="MDv-EB-5L5" eventType="touchUpInside" id="xRD-LM-T5w"/>
+                                    <action selector="PaypalPaymentProcess:" destination="MDv-EB-5L5" eventType="touchUpInside" id="Osc-f8-pb8"/>
+                                    <action selector="paypalPaymentProcess:" destination="MDv-EB-5L5" eventType="touchUpInside" id="Kmg-6b-DaV"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>

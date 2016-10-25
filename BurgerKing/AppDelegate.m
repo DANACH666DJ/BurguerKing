@@ -13,10 +13,21 @@
 @end
 
 @implementation AppDelegate
+@synthesize  qbAdmin;
+
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [PayPalMobile
+     initializeWithClientIdsForEnvironments: @{PayPalEnvironmentProduction : @"YOUR_CLIENT_ID_FOR_PRODUCTION" ,
+         PayPalEnvironmentSandbox : @"YOUR_CLIENT_ID_FOR_SANDBOX"}];
+    
+    qbAdmin = [[QBAdmin alloc]init];
+    
+    [qbAdmin login:@"NOMBRE"  password:@"PASS"];
+    qbAdmin.delegate = self;
     
     [QBSettings setApplicationID:47851];
     [QBSettings setAuthKey:@"6SwE9cNCmWWVMdA"];
@@ -25,6 +36,13 @@
     
 
     return YES;
+}
+
+-(void)loginSuccess:(BOOL)blsuccess{
+    NSLog(@"HEY HEYB %@" ,blsuccess);
+    
+    
+    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

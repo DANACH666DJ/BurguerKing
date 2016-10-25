@@ -24,7 +24,6 @@
 
 -(void) setModificarLabel:(NSString*)label{
     lblProducto.text=label;
-    
 }
 
 -(void)setModificarLabelPunt:(float)labelPunt{

@@ -40,6 +40,7 @@
 		099681ED1D9A587300F82176 /* BurgerKingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 099681EC1D9A587300F82176 /* BurgerKingTests.m */; };
 		099681F81D9A587300F82176 /* BurgerKingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 099681F71D9A587300F82176 /* BurgerKingUITests.m */; };
 		09D3F8821DACEF6500B269A0 /* Quickblox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09D3F8811DACEF6500B269A0 /* Quickblox.framework */; };
+		09D9F63D1DB61AF600A93889 /* QBAdmin.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D9F63C1DB61AF600A93889 /* QBAdmin.m */; };
 		4C33B82DCC29C1B3A8ADB99F /* libPods-BurgerKingUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E45D47F1FD74BF2DC3536DC /* libPods-BurgerKingUITests.a */; };
 		5290B18E18C1FFA538D83D25 /* libPods-BurgerKing.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A0018DB5247F717FF65515 /* libPods-BurgerKing.a */; };
 		CCEDE9EB6F8C2D1B74120B00 /* libPods-BurgerKingTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 133B95857376A114A5054418 /* libPods-BurgerKingTests.a */; };
@@ -109,6 +110,8 @@
 		099681F71D9A587300F82176 /* BurgerKingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BurgerKingUITests.m; sourceTree = "<group>"; };
 		099681F91D9A587300F82176 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09D3F8811DACEF6500B269A0 /* Quickblox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Quickblox.framework; sourceTree = "<group>"; };
+		09D9F63B1DB61AF600A93889 /* QBAdmin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBAdmin.h; sourceTree = "<group>"; };
+		09D9F63C1DB61AF600A93889 /* QBAdmin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBAdmin.m; sourceTree = "<group>"; };
 		133B95857376A114A5054418 /* libPods-BurgerKingTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BurgerKingTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2487C698C5EF5CB31097ECE4 /* Pods-BurgerKingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BurgerKingUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BurgerKingUITests/Pods-BurgerKingUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		51125565B83D2B87D4C6D5D3 /* Pods-BurgerKing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BurgerKing.release.xcconfig"; path = "Pods/Target Support Files/Pods-BurgerKing/Pods-BurgerKing.release.xcconfig"; sourceTree = "<group>"; };
@@ -275,6 +278,8 @@
 		099682051D9A721B00F82176 /* libreria */ = {
 			isa = PBXGroup;
 			children = (
+				09D9F63B1DB61AF600A93889 /* QBAdmin.h */,
+				09D9F63C1DB61AF600A93889 /* QBAdmin.m */,
 			);
 			name = libreria;
 			sourceTree = "<group>";
@@ -578,6 +583,7 @@
 				099681D41D9A587200F82176 /* main.m in Sources */,
 				091AE24D1DA6944C00E46EEC /* Login.m in Sources */,
 				094BC6D01D9D249E00424E30 /* Registro.m in Sources */,
+				09D9F63D1DB61AF600A93889 /* QBAdmin.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

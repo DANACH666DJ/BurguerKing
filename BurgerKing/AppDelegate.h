@@ -9,12 +9,16 @@
 #import <UIKit/UIKit.h>
 #import <Quickblox/Quickblox.h>
 #import "PayPalMobile.h"
+#import "QBAdmin.h"
 
 
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+
+@interface AppDelegate : UIResponder <UIApplicationDelegate,QBAdminDelegate>
+
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) QBAdmin *qbAdmin;
 
 
 @end
