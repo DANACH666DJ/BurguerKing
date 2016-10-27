@@ -25,6 +25,10 @@
 		094BC6E01D9D288700424E30 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094BC6DF1D9D288700424E30 /* CoreData.framework */; };
 		094BC6E21D9D289F00424E30 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094BC6E11D9D289F00424E30 /* AudioToolbox.framework */; };
 		094BC6E41D9D28B400424E30 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094BC6E31D9D28B400424E30 /* CoreMedia.framework */; };
+		094EC7721DC2051B0006930B /* paypal_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 094EC7711DC2051B0006930B /* paypal_logo.png */; };
+		094EC7751DC208340006930B /* ViewControllerMapa.m in Sources */ = {isa = PBXBuildFile; fileRef = 094EC7741DC208340006930B /* ViewControllerMapa.m */; };
+		094EC7781DC209AF0006930B /* MapPin.m in Sources */ = {isa = PBXBuildFile; fileRef = 094EC7771DC209AF0006930B /* MapPin.m */; };
+		094EC77B1DC20B150006930B /* CustomAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 094EC77A1DC20B150006930B /* CustomAnnotation.m */; };
 		09554DC91DAF8C8F0072317A /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09554DC81DAF8C8F0072317A /* MessageUI.framework */; };
 		09554DCB1DAF8CA60072317A /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09554DCA1DAF8CA60072317A /* SafariServices.framework */; };
 		09554DCE1DAF8E970072317A /* Paypal.m in Sources */ = {isa = PBXBuildFile; fileRef = 09554DCD1DAF8E970072317A /* Paypal.m */; };
@@ -91,6 +95,13 @@
 		094BC6DF1D9D288700424E30 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		094BC6E11D9D289F00424E30 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		094BC6E31D9D28B400424E30 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		094EC7711DC2051B0006930B /* paypal_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paypal_logo.png; sourceTree = "<group>"; };
+		094EC7731DC208340006930B /* ViewControllerMapa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewControllerMapa.h; path = ../ViewControllerMapa.h; sourceTree = "<group>"; };
+		094EC7741DC208340006930B /* ViewControllerMapa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewControllerMapa.m; path = ../ViewControllerMapa.m; sourceTree = "<group>"; };
+		094EC7761DC209AF0006930B /* MapPin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapPin.h; path = ../MapPin.h; sourceTree = "<group>"; };
+		094EC7771DC209AF0006930B /* MapPin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapPin.m; path = ../MapPin.m; sourceTree = "<group>"; };
+		094EC7791DC20B150006930B /* CustomAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomAnnotation.h; path = ../CustomAnnotation.h; sourceTree = "<group>"; };
+		094EC77A1DC20B150006930B /* CustomAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomAnnotation.m; path = ../CustomAnnotation.m; sourceTree = "<group>"; };
 		09554DC81DAF8C8F0072317A /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		09554DCA1DAF8CA60072317A /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
 		09554DCC1DAF8E970072317A /* Paypal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Paypal.h; sourceTree = "<group>"; };
@@ -214,6 +225,7 @@
 		099681C61D9A587200F82176 = {
 			isa = PBXGroup;
 			children = (
+				094EC7711DC2051B0006930B /* paypal_logo.png */,
 				09FE79801DBF99B400215C18 /* CardIO */,
 				09FE798D1DBF99B400215C18 /* PayPalMobile */,
 				093C6CFE1DAD391800EEB0DE /* Burger-King-Logo12.jpg */,
@@ -271,6 +283,12 @@
 				091AE2521DA69B2800E46EEC /* TablaProductos.m */,
 				09554DCC1DAF8E970072317A /* Paypal.h */,
 				09554DCD1DAF8E970072317A /* Paypal.m */,
+				094EC7731DC208340006930B /* ViewControllerMapa.h */,
+				094EC7741DC208340006930B /* ViewControllerMapa.m */,
+				094EC7761DC209AF0006930B /* MapPin.h */,
+				094EC7771DC209AF0006930B /* MapPin.m */,
+				094EC7791DC20B150006930B /* CustomAnnotation.h */,
+				094EC77A1DC20B150006930B /* CustomAnnotation.m */,
 				099681DB1D9A587200F82176 /* Main.storyboard */,
 				099681DE1D9A587300F82176 /* Assets.xcassets */,
 				099681E01D9A587300F82176 /* LaunchScreen.storyboard */,
@@ -476,6 +494,7 @@
 			files = (
 				099681E21D9A587300F82176 /* LaunchScreen.storyboard in Resources */,
 				099681DF1D9A587300F82176 /* Assets.xcassets in Resources */,
+				094EC7721DC2051B0006930B /* paypal_logo.png in Resources */,
 				099681DD1D9A587200F82176 /* Main.storyboard in Resources */,
 				093C6CFF1DAD391800EEB0DE /* Burger-King-Logo12.jpg in Resources */,
 			);
@@ -640,16 +659,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				094EC7781DC209AF0006930B /* MapPin.m in Sources */,
 				099681DA1D9A587200F82176 /* ViewController.m in Sources */,
 				099681D71D9A587200F82176 /* AppDelegate.m in Sources */,
 				09554DCE1DAF8E970072317A /* Paypal.m in Sources */,
 				091AE2531DA69B2800E46EEC /* TablaProductos.m in Sources */,
+				094EC7751DC208340006930B /* ViewControllerMapa.m in Sources */,
 				091AE2501DA694FE00E46EEC /* Pedido.m in Sources */,
 				099681D41D9A587200F82176 /* main.m in Sources */,
 				091AE24D1DA6944C00E46EEC /* Login.m in Sources */,
 				09FE79961DBF99B400215C18 /* CardIO.m in Sources */,
 				094BC6D01D9D249E00424E30 /* Registro.m in Sources */,
 				09D9F63D1DB61AF600A93889 /* QBAdmin.m in Sources */,
+				094EC77B1DC20B150006930B /* CustomAnnotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
